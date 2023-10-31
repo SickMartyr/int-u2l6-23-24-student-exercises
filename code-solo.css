@@ -21,6 +21,9 @@
     padding: 5px;
     border: 2px solid black;
     background: orange;
+  display: flex;
+  justify-content: flex-start;
+ 
 }
 
 /** Styling for the items of Sample 2  **/
@@ -29,5 +32,12 @@
     padding: 5px;
     border: 2px solid black;
     background: violet;
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
 
 }
